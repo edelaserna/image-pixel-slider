@@ -11,10 +11,9 @@ class ImagePixelSlider extends HTMLElement {
     this.actualImagePixels = 1326;
     this.fieldSize = 143.65;
     
-    // Image URL - can be overridden via attribute
+    // Image URL - on GitHub
     this.imageUrl = this.getAttribute('image-url') || 
-      'https://dl.dropboxusercontent.com/scl/fi/ikis3ahrhioeot9q0fx23/u2os_ph488.jpg?rlkey=g8oevnyk37x366eaqe55xy5de&st=9m920pco';
-  }
+  		'./u2os_ph488.jpg';
 
   connectedCallback() {
     this.render();
