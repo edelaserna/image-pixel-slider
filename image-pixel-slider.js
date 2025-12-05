@@ -14,6 +14,7 @@ class ImagePixelSlider extends HTMLElement {
     // Image URL - on GitHub
     this.imageUrl = this.getAttribute('image-url') || 
   		'./u2os_ph488.jpg';
+  }
 
   connectedCallback() {
     this.render();
