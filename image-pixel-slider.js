@@ -11,9 +11,8 @@ class ImagePixelSlider extends HTMLElement {
     this.actualImagePixels = 1326;
     this.fieldSize = 143.65;
     
-    // Image URL - on GitHub
-    this.imageUrl = this.getAttribute('image-url') || 
-  		'./u2os_ph488.jpg';
+    // Image URL - need full GitHub URL for Moodle integration
+    this.imageUrl = this.getAttribute('image-url') || 'https://edelaserna.github.io/image-pixel-slider/u2os_ph488.jpg';
   }
 
   connectedCallback() {
