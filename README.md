@@ -8,8 +8,8 @@ This is an interactive microscopy image pixel size slider to compliment lessons 
 ```html
 <div data-component="image-pixel-slider"> </div>
 <p>
-  <script type="module"
-    src="https://edelaserna.github.io/image-pixel-slider/"
+  <script
+    src="https://edelaserna.github.io/image-pixel-slider/image-pixel-slider.js"
     crossorigin="anonymous"></script>
 </p>
 ```
